@@ -1,4 +1,4 @@
-package model;
+import model.Burger;
 
 import java.util.HashMap;
 
