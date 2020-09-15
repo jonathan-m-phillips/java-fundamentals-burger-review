@@ -39,6 +39,8 @@ public class IndexServlet extends HttpServlet {
         allBurgers.add(quarterPounder);
 
         // Send that list to our JSP page, as a parameter
+        // Name in "quotes' is the variable name used in JSP
+        // Second argument is the actual value we are sending to JSP
         req.setAttribute("completeBurgerList", allBurgers);
         req.setAttribute("truthiness", false);
 
